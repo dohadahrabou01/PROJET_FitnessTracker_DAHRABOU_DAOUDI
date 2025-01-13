@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+        <!-- Ajoute cette couleur si elle manque -->
+        <color name="purple_500">#6200EE</color>
+
+        <!-- Assure-toi que les autres couleurs nécessaires sont également présentes -->
+        <color name="purple_700">#3700B3</color>
+        <color name="teal_200">#03DAC5</color>
+        <color name="teal_700">#018786</color>
+        <color name="green_color">#4CAF50</color> ]
+        <color name="red_color">#F44336</color>
+    <color name="primary">#6200EE</color>
+    <!-- Couleur bleu -->
+    <color name="blue">#1E88E5</color>
+    <color name="blue_light">#64B5F6</color>
+
+    <!-- Couleur vert -->
+    <color name="green">#4CAF50</color>
+    <color name="green_light">#81C784</color>
+
+    <!-- Couleur jaune -->
+    <color name="yellow">#FFEB3B</color>
+    <color name="yellow_light">#FFF176</color>
+
+</resources>

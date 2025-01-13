@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Champ pour le type d'objectif -->
+        <TextView
+            android:id="@+id/textViewGoalType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Type d'objectif"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:paddingBottom="8dp" />
+
+        <EditText
+            android:id="@+id/editTextGoalType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Entrez le type d'objectif"
+            android:inputType="text"
+            android:background="@drawable/edit_text_background"
+            android:padding="8dp" />
+
+        <!-- Champ pour la valeur cible -->
+        <TextView
+            android:id="@+id/textViewTargetValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Valeur cible"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <EditText
+            android:id="@+id/editTextTargetValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Entrez la valeur cible"
+            android:inputType="numberDecimal"
+            android:background="@drawable/edit_text_background"
+            android:padding="8dp" />
+
+        <!-- Champ pour la date de début -->
+        <TextView
+            android:id="@+id/textViewStartDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date de début"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <EditText
+            android:id="@+id/editTextStartDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="YYYY-MM-DD"
+            android:inputType="date"
+            android:background="@drawable/edit_text_background"
+            android:padding="8dp" />
+
+        <!-- Champ pour la date de fin -->
+        <TextView
+            android:id="@+id/textViewEndDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date de fin"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <EditText
+            android:id="@+id/editTextEndDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="YYYY-MM-DD"
+            android:inputType="date"
+            android:background="@drawable/edit_text_background"
+            android:padding="8dp" />
+
+        <!-- Spinner pour le statut -->
+        <TextView
+            android:id="@+id/textViewStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Statut"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <!-- Bouton pour enregistrer -->
+        <Spinner
+            android:id="@+id/spinnerStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        android:background="@drawable/spinner_background"
+        android:padding="8dp" />
+        <Button
+            android:id="@+id/buttonSaveGoal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/primary"
+            android:padding="12dp"
+            android:text="Enregistrer"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+    </LinearLayout>
+</ScrollView>

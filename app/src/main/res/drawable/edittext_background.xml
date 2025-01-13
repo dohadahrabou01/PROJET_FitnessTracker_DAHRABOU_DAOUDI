@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#F1F1F1"/> <!-- Couleur de fond claire pour le champ de texte -->
+    <corners android:radius="4dp"/> <!-- Coins arrondis légèrement -->
+    <stroke android:color="#B0B0B0" android:width="1dp"/> <!-- Bordure gris clair -->
+</shape>

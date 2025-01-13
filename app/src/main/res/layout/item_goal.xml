@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:layout_marginBottom="8dp">
+
+    <!-- Titre Objectif -->
+    <TextView
+        android:id="@+id/textViewGoalType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Objectif: Course"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Cible -->
+    <TextView
+        android:id="@+id/textViewTargetValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cible: "
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Date de début -->
+    <TextView
+        android:id="@+id/textViewStartDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Début:"
+        android:textSize="14sp"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Date de fin -->
+    <TextView
+        android:id="@+id/textViewEndDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fin: "
+        android:textSize="14sp"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Statut -->
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Statut: "
+        android:textSize="14sp"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Section des boutons -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:layout_gravity="end"
+        android:layout_marginTop="8dp">
+
+        <!-- Bouton Progresser -->
+        <Button
+            android:id="@+id/buttonProgressGoal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/primary"
+            android:text="Progresser"
+            android:layout_marginEnd="8dp" />
+
+        <!-- Bouton Éditer -->
+        <Button
+            android:id="@+id/buttonEditGoal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/green_color"
+            android:text="Éditer"
+            android:layout_marginEnd="8dp" />
+
+        <!-- Bouton Supprimer -->
+        <Button
+            android:id="@+id/buttonDeleteGoal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/red_color"
+            android:text="Supprimer" />
+    </LinearLayout>
+</LinearLayout>

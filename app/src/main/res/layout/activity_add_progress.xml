@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Titre principal "Ajouter un progrès" en gras -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajouter un progrès"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#6200EE"
+        android:layout_marginBottom="16dp"
+        android:gravity="center" />
+
+    <!-- Titre de la valeur de progrès en gras -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valeur du progrès"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextProgressValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Valeur du progrès"
+        android:inputType="numberDecimal" />
+
+    <!-- Titre de la date en gras -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date du progrès"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Utilisation d'un DatePicker pour sélectionner la date -->
+    <DatePicker
+        android:id="@+id/datePickerProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"/>
+
+    <Button
+        android:id="@+id/buttonSaveProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sauvegarder le progrès"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

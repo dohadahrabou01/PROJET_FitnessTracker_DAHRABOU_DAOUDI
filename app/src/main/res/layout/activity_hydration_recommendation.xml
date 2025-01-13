@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    android:elevation="2dp">
+
+    <!-- Icône de l'élément -->
+
+
+    <!-- Texte de la recommandation -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recommandations Hydratation"
+        android:textSize="24sp"
+        android:textColor="@color/teal_700"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-medium" />
+
+    <!-- RecyclerView pour les recommandations d'hydratation -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_hydration"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/title"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

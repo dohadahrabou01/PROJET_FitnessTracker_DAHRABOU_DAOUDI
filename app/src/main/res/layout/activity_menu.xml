@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@android:color/white">
+
+    <!-- Icône de fitness -->
+    <ImageView
+        android:id="@+id/fitnessIcon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_fitness"
+    android:contentDescription="Icône Fitness"
+    android:layout_marginBottom="32dp"/>
+
+    <!-- Titre principal -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu Principal"
+        android:textSize="28sp"
+        android:textColor="#333333"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Boutons avec un backgroundTint personnalisé -->
+    <Button
+        android:id="@+id/buttonTraining"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mes Entraînements"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#6a1b9a"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonObjectif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mes Objectifs"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#ffeb3b"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonRecommendation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Visiter Catalogue"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#4caf50"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paramètres"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#2196f3"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Se Déconnecter"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#f44336"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

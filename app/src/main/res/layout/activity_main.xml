@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <!-- Titre de l'application -->
+    <TextView
+        android:id="@+id/tvAppTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bienvenue dans l'application FitnessTracker"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="50dp" />
+
+    <!-- Description de l'application -->
+    <TextView
+        android:id="@+id/tvAppDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cette application vous aide à suivre vos entraînements, vos objectifs et vos progrès fitness. Connectez-vous ou créez un compte pour commencer."
+        android:layout_below="@id/tvAppTitle"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:padding="12dp" />
+
+    <!-- Bouton Connexion -->
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Se connecter"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/tvAppDescription"
+        android:backgroundTint="#6200EE"
+        android:textColor="#FFFFFF" />
+
+    <!-- Bouton Inscription -->
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Créer un compte"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/btnLogin"
+        android:backgroundTint="#03DAC5"
+        android:textColor="#FFFFFF" />
+</RelativeLayout>
+
+

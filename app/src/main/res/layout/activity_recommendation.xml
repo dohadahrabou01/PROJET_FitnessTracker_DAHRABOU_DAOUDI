@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0">
+
+    <!-- Titre de l'écran -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recommandations Santé"
+        android:textSize="24sp"
+        android:textColor="#1a73e8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-medium" />
+
+    <!-- Bouton pour l'hydratation -->
+    <Button
+        android:id="@+id/btn_hydration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recommandations Hydratation"
+        android:textSize="16sp"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="#ffffff" />
+
+    <!-- Bouton pour la méditation -->
+    <Button
+        android:id="@+id/btn_meditation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recommandations Méditation"
+        android:textSize="16sp"
+        android:layout_below="@id/btn_hydration"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/green_color"
+        android:textColor="#ffffff" />
+
+    <!-- Bouton pour les exercices physiques -->
+    <Button
+        android:id="@+id/btn_exercises"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recommandations Exercices"
+        android:textSize="16sp"
+        android:layout_below="@id/btn_meditation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/teal_200"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>
